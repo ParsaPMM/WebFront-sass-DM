@@ -7,7 +7,7 @@
     "scss": "sass -w scss/ -o css/ -r"
   },
   "keywords": [],
-  "author": "",
+  "author": "Parsa Moshirpoor",
   "license": "ISC",
   "dependencies": {
     "bootstrap": "^5.2.1",
