@@ -1,0 +1,909 @@
+
+// Size Xl
+@media only screen and (min-width: 1200px){
+
+  // section baraye sizehaye kochiktar
+  section.sandwich{
+    display: none;
+  }
+  input#open{
+    display: none;
+  }
+  input#close{
+    display: none;
+  }
+  // start of menu
+  section.kole-menu{
+    width: 100%;
+    height: 1400px;
+    background-image:url("../images/hero-bg.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
+  }
+  section.menu{
+    width: 100%;
+    height: 125px;
+    display: flex;
+    flex-flow: row wrap;
+    background-color: rgba(0,0,0,0.3);
+    position: sticky;
+    top: 0;
+    // Start of logo menu
+    >div:nth-of-type(1){
+      flex-grow: 1;
+      height: inherit;
+      >a{
+        display: block;
+        height: inherit;
+        width: 100%;
+        text-align: center;
+        line-height: 125px;
+        >span{
+          color: white;
+          font-size: 32px;
+          >span{
+            color: orange;
+
+          }
+        }
+      }
+    }
+    // End of logo menu
+    // Start of list menu
+    >div:nth-of-type(2){
+      flex-grow: 3;
+      height: inherit;
+      display: block;
+      >label[for = close]{
+        display: none;
+      }
+      >span{
+        display: none;
+        font-size: 25px;
+        color: red;
+      }
+      >nav{
+        width: 100%;
+        height: inherit;
+        display: block;
+        >ul{
+          display: flex;
+          flex-flow: row wrap;
+          list-style: none;
+          justify-content: center;
+          // first li a color orange
+          >li:nth-of-type(1){
+            >a{
+              color: orange;
+            }
+
+          }
+          >li:nth-of-type(6){
+            &:hover>div.zirMenu{
+              display: block;
+            }
+          }
+          >li{
+            width:auto;
+            height: inherit;
+            display: block;
+            >a{
+              color: white;
+              line-height: 125px;
+              box-sizing: border-box;
+              padding-right: 45px;
+              transition: all 150ms linear;
+              &:hover{
+                color: orange;
+              }
+            }
+          }
+        }
+      }
+    }
+    // End of list menu
+    // Start of button menu
+    >div:nth-of-type(3){
+      flex-grow: 1;
+      height: inherit;
+      >a{
+        font-size: 15px;
+        font-weight: bold;
+        color: white;
+        box-sizing: border-box;
+        padding:10px 25px;
+        line-height: 125px;
+        border: 2px solid orange;
+        border-radius: 4px;
+        transition: all 200ms linear;
+        &:hover{
+          background-color: orange;
+          color: black;
+        }
+      }
+    }
+    //End of button menu
+    //Start of Zirmenu
+    div.zirMenu{
+      background-color: white;
+      width: 200px;
+      height: 220px;
+      position: absolute;
+      top: 125px;
+      display: none;
+      >nav{
+        display: block;
+        height: inherit;
+        width: 100%;
+        >ul{
+          display: flex;
+          width: 100%;
+          height: inherit;
+          list-style: none;
+          flex-flow: column nowrap;
+          >li{
+            height: inherit;
+            width:100%;
+            box-sizing: border-box;
+            padding-top:15px;
+            padding-left: 15px;
+            transition: all 200ms linear;
+            &:hover{
+              background-color: orange;
+            }
+            >a{
+              display: block;
+              width:100%;
+              color: black;
+            }
+          }
+        }
+      }
+    }
+    //End of Zirmenu
+  }
+  // End of menu
+}
+// Size l
+@media only screen and (min-width: 990px) and (max-width: 1200px){
+  // section baraye sizehaye kochiktar
+  section.sandwich{
+    display: none;
+  }
+  input#open {
+    display: none;
+  }
+  input#close{
+    display: none;
+  }
+  // start of menu
+  section.kole-menu{
+    width: 100%;
+    height: 1400px;
+    background-image:url("../images/hero-bg.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
+  }
+  section.menu{
+    width: 100%;
+    height: 125px;
+    display: flex;
+    flex-flow: row wrap;
+    background-color: rgba(0,0,0,0.3);
+    position: sticky;
+    top: 0;
+    // Start of logo menu
+    >div:nth-of-type(1){
+      flex-grow: 1;
+      height: inherit;
+      >a{
+        display: block;
+        height: inherit;
+        width: 100%;
+        text-align: center;
+        line-height: 125px;
+        >span{
+          color: white;
+          font-size: 32px;
+          >span{
+            color: orange;
+
+          }
+        }
+      }
+    }
+    // End of logo menu
+    // Start of list menu
+    >div:nth-of-type(2){
+      flex-grow: 3;
+      height: inherit;
+      display: block;
+      >label[for = close]{
+        display: none;
+      }
+      >span{
+        display: none;
+        font-size: 25px;
+        color: red;
+      }
+      >nav{
+        width: 100%;
+        height: inherit;
+        display: block;
+        >ul{
+          display: flex;
+          flex-flow: row wrap;
+          list-style: none;
+          justify-content: center;
+          // first li a color orange
+          >li:nth-of-type(1){
+            >a{
+              color: orange;
+            }
+          }
+          >li:nth-of-type(6){
+            &:hover>div.zirMenu{
+              display: block;
+            }
+          }
+          >li{
+            width:auto;
+            height: inherit;
+            display: block;
+            >a{
+              color: white;
+              line-height: 125px;
+              box-sizing: border-box;
+              padding-right: 45px;
+              transition: all 150ms linear;
+              &:hover{
+                color: orange;
+              }
+            }
+          }
+        }
+      }
+    }
+    // End of list menu
+    // Start of button menu
+    >div:nth-of-type(3){
+      flex-grow: 1;
+      height: inherit;
+      >a{
+        font-size: 15px;
+        font-weight: bold;
+        color: white;
+        box-sizing: border-box;
+        padding:10px 25px;
+        line-height: 125px;
+        border: 2px solid orange;
+        border-radius: 4px;
+        transition: all 200ms linear;
+        &:hover{
+          background-color: orange;
+          color: black;
+        }
+      }
+    }
+    //End of button menu
+  }
+  //Start of Zirmenu
+  div.zirMenu{
+    background-color: white;
+    width: 200px;
+    height: 220px;
+    position: absolute;
+    top: 125px;
+    display: none;
+    >nav{
+      display: block;
+      height: inherit;
+      width: 100%;
+      >ul{
+        display: flex;
+        width: 100%;
+        height: inherit;
+        list-style: none;
+        flex-flow: column nowrap;
+        >li{
+          height: inherit;
+          width:100%;
+          box-sizing: border-box;
+          padding-top:15px;
+          padding-left: 15px;
+          transition: all 200ms linear;
+          &:hover{
+            background-color: orange;
+          }
+          >a{
+            display: block;
+            width:100%;
+            color: black;
+
+          }
+        }
+      }
+    }
+  }
+  //End of Zirmenu
+  // End of menu
+}
+// size M
+@media only screen and (min-width:760px) and (max-width: 990px) {
+  // start of menu
+  section.kole-menu{
+    width: 100%;
+    height: 1400px;
+    background-image:url("../images/hero-bg.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
+  }
+  section.menu{
+    width: 100%;
+    height: 125px;
+    display: flex;
+    flex-flow: row;
+    background-color: rgba(0,0,0,0.3);
+    position: sticky;
+    top: 0;
+    // Start of logo menu
+    >div:nth-of-type(1){
+      flex-grow: 1;
+      height: inherit;
+      >a{
+        display: block;
+        height: inherit;
+        width: 100%;
+        text-align: center;
+        line-height: 125px;
+        >span{
+          color: white;
+          font-size: 32px;
+          >span{
+            color: orange;
+
+          }
+        }
+      }
+    }
+    // End of logo menu
+    // Start of list menu
+    >div:nth-of-type(2){
+      width: 90%;
+      height: 400px;
+      position: fixed;
+      top: 25px;
+      background-color:#2b2b2b;
+      left: 25px;
+      display: none;
+      z-index: 5;
+      label[for = close]{
+        width: 100%;
+        display: inline-block;
+        text-align: end;
+        >span{
+          font-size: 25px;
+          color: red;
+          font-weight: bolder;
+        }
+      }
+      >nav{
+        width: 100%;
+        height: inherit;
+        display: block;
+        >ul{
+          display: flex;
+          flex-flow: column;
+          list-style: none;
+          justify-content: center;
+          // first li a color orange
+          >li:nth-of-type(1){
+            >a{
+              color: orange;
+            }
+          }
+          >li:nth-of-type(6){
+            &:hover>div.zirMenu{
+              display: block;
+            }
+          }
+          >li{
+            width:100%;
+            height: 50px;
+            display: block;
+            text-align: center;
+            &:hover{
+              background-color: orange;
+            }
+            >a{
+              color: darkolivegreen;
+              line-height: 50px;
+              box-sizing: border-box;
+              padding-right: 45px;
+              transition: all 150ms linear;
+
+              &:hover{
+                color: black;
+              }
+            }
+          }
+        }
+      }
+    }
+    // End of list menu
+    // Start of button menu
+    >div:nth-of-type(3){
+      flex-grow: 1;
+      height: inherit;
+      >a{
+        font-size: 15px;
+        font-weight: bold;
+        color: white;
+        box-sizing: border-box;
+        padding:10px 25px;
+        line-height: 125px;
+        border: 2px solid orange;
+        border-radius: 4px;
+        transition: all 200ms linear;
+        &:hover{
+          background-color: orange;
+          color: black;
+        }
+      }
+    }
+    //End of button menu
+    //Start of Zirmenu
+    div.zirMenu{
+      background-color: white;
+      width: 200px;
+      height: 200px;
+      position: absolute;
+      top: 288px;
+      left:calc(65% - 50px);
+      display: none;
+      >nav{
+        display: block;
+        height: inherit;
+        width: 100%;
+        >ul{
+          display: flex;
+          width: 100%;
+          height: inherit;
+          list-style: none;
+          flex-flow: column nowrap;
+          >li{
+            height: inherit;
+            width:100%;
+            box-sizing: border-box;
+            padding-top:15px;
+            padding-left: 15px;
+            transition: all 200ms linear;
+            &:hover{
+              background-color: orange;
+            }
+            >a{
+              display: block;
+              width:100%;
+              color: black;
+
+            }
+          }
+        }
+      }
+    }
+    //End of Zirmenu
+  }
+  // End of menu
+  // section for sandwich function
+  section.sandwich{
+    flex-grow: 1;
+    height: inherit;
+    line-height: 125px;
+    text-align: end;
+    box-sizing: border-box;
+    padding-right: 30px;
+    >label{
+      font-size: 35px;
+      color: white;
+    }
+  }
+  input#open{
+    display: none;
+    &:checked ~ div:nth-of-type(2){
+      display: block;
+    }
+  }
+  input#close{
+    display: none;
+    &:checked ~ div:nth-of-type(2){
+      display: none;
+    }
+  }
+}
+// size sm
+@media only screen and (min-width: 480px) and (max-width: 760px){
+  // start of menu
+  section.kole-menu{
+    width: 100%;
+    height: 1400px;
+    background-image:url("../images/hero-bg.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
+
+  }
+  section.menu{
+    width: 100%;
+    height: 125px;
+    display: flex;
+    flex-flow: row;
+    background-color: rgba(0,0,0,0.3);
+    position: sticky;
+    top: 0;
+    // Start of logo menu
+    >div:nth-of-type(1){
+      flex-grow: 1;
+      height: inherit;
+      >a{
+        display: block;
+        height: inherit;
+        width: 100%;
+        text-align: center;
+        line-height: 125px;
+        >span{
+          color: white;
+          font-size: 32px;
+          >span{
+            color: orange;
+
+          }
+        }
+      }
+    }
+    // End of logo menu
+    // Start of list menu
+    >div:nth-of-type(2){
+      width: 90%;
+      height: 400px;
+      position: fixed;
+      top: 25px;
+      background-color:#2b2b2b;
+      left: 25px;
+      display: none;
+      label[for = close]{
+        width: 100%;
+        display: inline-block;
+        text-align: end;
+        >span{
+          font-size: 25px;
+          color: red;
+          font-weight: bolder;
+        }
+      }
+      >nav{
+        width: 100%;
+        height: inherit;
+        display: block;
+        >ul{
+          display: flex;
+          flex-flow: column;
+          list-style: none;
+          justify-content: center;
+          // first li a color orange
+          >li:nth-of-type(1){
+            >a{
+              color: orange;
+            }
+          }
+          >li:nth-of-type(6){
+            &:hover>div.zirMenu{
+              display: block;
+            }
+          }
+          >li{
+            width:100%;
+            height: 50px;
+            display: block;
+            text-align: center;
+            &:hover{
+              background-color: orange;
+            }
+            >a{
+              color: darkolivegreen;
+              line-height: 50px;
+              box-sizing: border-box;
+              padding-right: 45px;
+              transition: all 150ms linear;
+
+              &:hover{
+                color: black;
+              }
+            }
+          }
+        }
+      }
+    }
+    // End of list menu
+    // Start of button menu
+    >div:nth-of-type(3){
+      flex-grow: 1;
+      height: inherit;
+      >a{
+        font-size: 15px;
+        font-weight: bold;
+        color: white;
+        box-sizing: border-box;
+        padding:10px 25px;
+        line-height: 125px;
+        border: 2px solid orange;
+        border-radius: 4px;
+        transition: all 200ms linear;
+        &:hover{
+          background-color: orange;
+          color: black;
+        }
+      }
+    }
+    //End of button menu
+  }
+  // End of menu
+  //Start of Zirmenu
+  div.zirMenu{
+    background-color: white;
+    width: 200px;
+    height: 200px;
+    position: absolute;
+    top: 288px;
+    left:calc(65% - 50px);
+    display: none;
+    >nav{
+      display: block;
+      height: inherit;
+      width: 100%;
+      >ul{
+        display: flex;
+        width: 100%;
+        height: inherit;
+        list-style: none;
+        flex-flow: column nowrap;
+        >li{
+          height: inherit;
+          width:100%;
+          box-sizing: border-box;
+          padding-top:15px;
+          padding-left: 15px;
+          transition: all 200ms linear;
+          &:hover{
+            background-color: orange;
+          }
+          >a{
+            display: block;
+            width:100%;
+            color: black;
+          }
+        }
+      }
+    }
+  }
+  //End of Zirmenu
+  // section for sandwich function
+  section.sandwich{
+    flex-grow: 1;
+    height: inherit;
+    line-height: 125px;
+    text-align: end;
+    box-sizing: border-box;
+    padding-right: 30px;
+    >label{
+      font-size: 35px;
+      color: white;
+    }
+  }
+  input#open{
+    display: none;
+    &:checked ~ div:nth-of-type(2){
+      display: block;
+    }
+  }
+  input#close{
+    display: none;
+    &:checked ~ div:nth-of-type(2){
+      display: none;
+    }
+  }
+}
+// size xs
+@media only screen and (max-width: 480px){
+  // start of menu
+  section.kole-menu{
+    width: 100%;
+    height: 1400px;
+    background-image:url("../images/hero-bg.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
+
+  }
+  section.menu{
+    width: 100%;
+    height: 125px;
+    display: flex;
+    flex-flow: row;
+    background-color: rgba(0,0,0,0.3);
+    top: 0;
+    position: sticky;
+    // Start of logo menu
+    >div:nth-of-type(1){
+      flex-grow: 1;
+      height: inherit;
+      >a{
+        display: block;
+        height: inherit;
+        width: 100%;
+        text-align: center;
+        line-height: 125px;
+        >span{
+          color: white;
+          font-size: 32px;
+          >span{
+            color: orange;
+
+          }
+        }
+      }
+    }
+    // End of logo menu
+    // Start of list menu
+    >div:nth-of-type(2){
+      width: 90%;
+      height: 400px;
+      position: fixed;
+      top: 25px;
+      background-color:#2b2b2b;
+      left: 25px;
+      display: none;
+      label[for = close]{
+        width: 100%;
+        display: inline-block;
+        text-align: end;
+        >span{
+          font-size: 25px;
+          color: red;
+          font-weight: bolder;
+        }
+      }
+      >nav{
+        width: 100%;
+        height: inherit;
+        display: block;
+        >ul{
+          display: flex;
+          flex-flow: column;
+          list-style: none;
+          justify-content: center;
+          // first li a color orange
+          >li:nth-of-type(1){
+            >a{
+              color: orange;
+            }
+          }
+          >li:nth-of-type(6){
+            &:hover>div.zirMenu{
+              display: block;
+            }
+          }
+          >li{
+            width:100%;
+            height: 50px;
+            display: block;
+            text-align: center;
+            &:hover{
+              background-color: orange;
+            }
+            >a{
+              color: darkolivegreen;
+              line-height: 50px;
+              box-sizing: border-box;
+              padding-right: 45px;
+              transition: all 150ms linear;
+
+              &:hover{
+                color: black;
+              }
+            }
+          }
+        }
+      }
+    }
+    // End of list menu
+    // Start of button menu
+    >div:nth-of-type(3){
+      flex-grow: 1;
+      height: inherit;
+      >a{
+        font-size: 15px;
+        font-weight: bold;
+        color: white;
+        box-sizing: border-box;
+        padding:10px 25px;
+        line-height: 125px;
+        border: 2px solid orange;
+        border-radius: 4px;
+        transition: all 200ms linear;
+        &:hover{
+          background-color: orange;
+          color: black;
+        }
+      }
+    }
+    //End of button menu
+  }
+  // End of menu
+  //Start of Zirmenu
+  div.zirMenu{
+    background-color: white;
+    width: 150px;
+    height: 200px;
+    position: absolute;
+    top: 288px;
+    left:calc(74% - 50px);
+    display: none;
+    >nav{
+      display: block;
+      height: inherit;
+      width: 100%;
+      >ul{
+        display: flex;
+        width: 100%;
+        height: inherit;
+        list-style: none;
+        flex-flow: column nowrap;
+        >li{
+          height: inherit;
+          width:100%;
+          box-sizing: border-box;
+          padding-top:15px;
+          padding-left: 15px;
+          transition: all 200ms linear;
+          &:hover{
+            background-color: orange;
+          }
+          >a{
+            display: block;
+            width:100%;
+            color: black;
+          }
+        }
+      }
+    }
+  }
+  //End of Zirmenu
+  // section for sandwich function
+  section.sandwich{
+    flex-grow: 1;
+    height: inherit;
+    line-height: 125px;
+    text-align: end;
+    box-sizing: border-box;
+    padding-right: 30px;
+    >label{
+      font-size: 35px;
+      color: white;
+    }
+  }
+  input#open{
+    display: none;
+    &:checked ~ div:nth-of-type(2){
+      display: block;
+    }
+  }
+  input#close{
+    display: none;
+    &:checked ~ div:nth-of-type(2){
+      display: none;
+    }
+  }
+}

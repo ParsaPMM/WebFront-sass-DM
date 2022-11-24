@@ -1,0 +1,44 @@
+*{
+  margin: 0;
+  padding: 0;
+  text-decoration: none;
+  font-family: myFirstFont;
+
+}
+textarea{
+  resize: none;
+}
+@font-face {
+  font-family: myFirstFont;
+  src: url("../fonts/Poppins-Medium.ttf");
+}
+//Menu be 3 part taghsim shode va har part ye file hastesh.
+
+// importing Menu-p1
+@import "menu-p1";
+// importing functions
+@import "functions";
+//importing Menu-part2
+@import "menu-p2";
+//importing Menu-p3
+@import "menu-p3";
+//importing container-p1
+@import "container-p1";
+//importing container-p2
+@import "container-p2";
+//importing services
+@import "services";
+//importing call for action
+@import "call";
+//importing portfolio
+@import "portfolio";
+//importing happy section
+@import "happy";
+// importing team section
+@import "team";
+// importing about section
+@import "about";
+// importing footer section
+@import "footer";
+// importing up section
+@import "up";

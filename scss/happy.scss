@@ -1,0 +1,381 @@
+@media only screen and (min-width: 1200px) {
+  // Start of section happy
+  section.happy{
+    width: 100%;
+    box-sizing: border-box;
+    display: flex;
+    padding-top: 100px;
+    flex-flow: row;
+    // image samt chap happy
+    >div:nth-of-type(1){
+      width: 40%;
+      box-sizing: border-box;
+      padding-left: 50px;
+      padding-right: 50px;
+      >img{
+        width: 450px;
+        height: 450px;
+      }
+    }
+    //div matn samt rast happy
+    >div:nth-of-type(2){
+      width: 60%;
+      box-sizing: border-box;
+      padding-left: 75px;
+      padding-top: 35px;
+      >div:nth-of-type(1){
+        width:100%;
+        box-sizing: border-box;
+        padding-bottom: 25px;
+        >h4{
+          font-size: 30px;
+        }
+      }
+      >div:nth-of-type(2){
+        width:100%;
+        box-sizing: border-box;
+        display: flex;
+        flex-flow: row wrap;
+        >h4{
+          font-size: 30px;
+        }
+        >div{
+          width: 50%;
+          box-sizing: border-box;
+
+          >h2{
+            font-size: 35px;
+            >i{
+              color: #ffc451;
+            }
+          }
+          p{
+            font-size: 14px;
+            box-sizing: border-box;
+            padding-left: 45px;
+          }
+        }
+        >div:nth-of-type(1){
+        }
+        >div:nth-of-type(2){
+
+        }
+        >div:nth-of-type(3){
+          padding-top:45px;
+        }
+        >div:nth-of-type(4){
+          padding-top:45px;
+
+        }
+      }
+
+    }
+  }
+  //End of section happy
+
+}
+
+@media only screen and (min-width: 990px) and (max-width: 1200px) {
+  // Start of section happy
+  section.happy{
+    width: 100%;
+    box-sizing: border-box;
+    display: flex;
+    padding-top: 100px;
+    flex-flow: column;
+    justify-content: center;
+    // image samt chap happy
+    >div:nth-of-type(1){
+      width: 80%;
+      box-sizing: border-box;
+      margin: 0 auto;
+      >img{
+        width:100%;
+        height: 500px;
+      }
+    }
+    //div matn samt rast happy
+    >div:nth-of-type(2){
+      width: 90%;
+      box-sizing: border-box;
+      margin: 0 auto;
+      padding-top: 35px;
+      >div:nth-of-type(1){
+        width:100%;
+        box-sizing: border-box;
+        padding-bottom: 25px;
+        >h4{
+          font-size: 30px;
+        }
+      }
+      >div:nth-of-type(2){
+        width:100%;
+        box-sizing: border-box;
+        display: flex;
+        flex-flow: row wrap;
+        >h4{
+          font-size: 30px;
+        }
+        >div{
+          width: 50%;
+          box-sizing: border-box;
+
+          >h2{
+            font-size: 35px;
+            >i{
+              color: #ffc451;
+            }
+          }
+          p{
+            font-size: 14px;
+            box-sizing: border-box;
+            padding-left: 45px;
+          }
+        }
+        >div:nth-of-type(1){
+        }
+        >div:nth-of-type(2){
+
+        }
+        >div:nth-of-type(3){
+          padding-top:45px;
+        }
+        >div:nth-of-type(4){
+          padding-top:45px;
+
+        }
+      }
+
+    }
+  }
+  //End of section happy
+
+}
+
+@media only screen and (min-width: 760px) and (max-width: 990px) {
+  // Start of section happy
+  section.happy{
+    width: 100%;
+    box-sizing: border-box;
+    display: flex;
+    padding-top: 100px;
+    flex-flow: column;
+    justify-content: center;
+    // image samt chap happy
+    >div:nth-of-type(1){
+      width: 80%;
+      box-sizing: border-box;
+      margin: 0 auto;
+      >img{
+        width:100%;
+        height: 500px;
+      }
+    }
+    //div matn samt rast happy
+    >div:nth-of-type(2){
+      width: 90%;
+      box-sizing: border-box;
+      margin: 0 auto;
+      padding-top: 35px;
+      >div:nth-of-type(1){
+        width:100%;
+        box-sizing: border-box;
+        padding-bottom: 25px;
+        >h4{
+          font-size: 30px;
+        }
+      }
+      >div:nth-of-type(2){
+        width:100%;
+        box-sizing: border-box;
+        display: flex;
+        flex-flow: row wrap;
+        >h4{
+          font-size: 30px;
+        }
+        >div{
+          width: 50%;
+          box-sizing: border-box;
+
+          >h2{
+            font-size: 35px;
+            >i{
+              color: #ffc451;
+            }
+          }
+          p{
+            font-size: 14px;
+            box-sizing: border-box;
+            padding-left: 45px;
+          }
+        }
+        >div:nth-of-type(1){
+        }
+        >div:nth-of-type(2){
+
+        }
+        >div:nth-of-type(3){
+          padding-top:45px;
+        }
+        >div:nth-of-type(4){
+          padding-top:45px;
+
+        }
+      }
+
+    }
+  }
+  //End of section happy
+}
+
+@media only screen and (min-width: 480px) and (max-width: 760px) {
+  // Start of section happy
+  section.happy{
+    width: 100%;
+    box-sizing: border-box;
+    display: flex;
+    padding-top: 100px;
+    flex-flow: column;
+    justify-content: center;
+    // image samt chap happy
+    >div:nth-of-type(1){
+      width: 90%;
+      box-sizing: border-box;
+      margin: 0 auto;
+      >img{
+        width:100%;
+        height: 500px;
+      }
+    }
+    //div matn samt rast happy
+    >div:nth-of-type(2){
+      width: 90%;
+      box-sizing: border-box;
+      margin: 0 auto;
+      padding-top: 35px;
+      >div:nth-of-type(1){
+        width:100%;
+        box-sizing: border-box;
+        padding-bottom: 25px;
+        >h4{
+          font-size: 30px;
+        }
+      }
+      >div:nth-of-type(2){
+        width:100%;
+        box-sizing: border-box;
+        display: flex;
+        flex-flow: row wrap;
+        >h4{
+          font-size: 30px;
+        }
+        >div{
+          width: 50%;
+          box-sizing: border-box;
+
+          >h2{
+            font-size: 35px;
+            >i{
+              color: #ffc451;
+            }
+          }
+          p{
+            font-size: 14px;
+            box-sizing: border-box;
+            padding-left: 45px;
+          }
+        }
+        >div:nth-of-type(1){
+        }
+        >div:nth-of-type(2){
+
+        }
+        >div:nth-of-type(3){
+          padding-top:45px;
+        }
+        >div:nth-of-type(4){
+          padding-top:45px;
+
+        }
+      }
+
+    }
+  }
+  //End of section happy
+}
+
+@media only screen and (max-width: 480px) {
+  // Start of section happy
+  section.happy{
+    width: 100%;
+    box-sizing: border-box;
+    display: flex;
+    padding-top: 100px;
+    flex-flow: column;
+    justify-content: center;
+    // image samt chap happy
+    >div:nth-of-type(1){
+      width: 90%;
+      box-sizing: border-box;
+      margin: 0 auto;
+      >img{
+        width:100%;
+        height: 500px;
+      }
+    }
+    //div matn samt rast happy
+    >div:nth-of-type(2){
+      width: 90%;
+      box-sizing: border-box;
+      margin: 0 auto;
+      padding-top: 35px;
+      >div:nth-of-type(1){
+        width:100%;
+        box-sizing: border-box;
+        padding-bottom: 25px;
+        >h4{
+          font-size: 30px;
+        }
+      }
+      >div:nth-of-type(2){
+        width:100%;
+        box-sizing: border-box;
+        display: flex;
+        flex-flow: row wrap;
+        >h4{
+          font-size: 30px;
+        }
+        >div{
+          width: 50%;
+          box-sizing: border-box;
+
+          >h2{
+            font-size: 35px;
+            >i{
+              color: #ffc451;
+            }
+          }
+          p{
+            font-size: 14px;
+            box-sizing: border-box;
+            padding-left: 45px;
+          }
+        }
+        >div:nth-of-type(1){
+        }
+        >div:nth-of-type(2){
+
+        }
+        >div:nth-of-type(3){
+          padding-top:45px;
+        }
+        >div:nth-of-type(4){
+          padding-top:45px;
+
+        }
+      }
+
+    }
+  }
+  //End of section happy
+}

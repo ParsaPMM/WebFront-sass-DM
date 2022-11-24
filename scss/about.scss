@@ -1,0 +1,711 @@
+@media only screen and (min-width: 1200px) {
+  section.c-about{
+    //Start of c-about
+    //matn balaye about
+    width: 100%;
+    height: 200px;
+    box-sizing: border-box;
+    padding-top: 100px;
+    padding-left: 50px;
+    >span{
+      color: gray;
+
+    }
+    >h3{
+      display: inline-block;
+      width: 150px;
+      color: orange;
+      line-height: 0px;
+    }
+    >h2{
+      font-size: 35px;
+      font-weight: bolder;
+    }
+  }
+  //End of c-about
+  //matn balaye about us
+  // Start of about
+  section.about{
+    width: 100%;
+    margin-top: 50px;
+    display: flex;
+    flex-flow: row nowrap;
+    //Start div samt chap
+    >div:nth-of-type(1){
+      width: 35%;
+      display: flex;
+      flex-flow: column nowrap;
+      justify-content: center;
+      box-sizing: border-box;
+      padding-left: 115px;
+      >div{
+        width: 100%;
+        >p{
+          color: gray;
+          box-sizing: border-box;
+          padding-left: 50px;
+        }
+        >address{
+          color: gray;
+          box-sizing: border-box;
+          padding-left: 50px;
+        }
+        >h2{
+          line-height: 0px;
+          >i{
+            display: inline-block;
+            box-sizing: border-box;
+            padding:12px;
+            background-color: #ffc451;
+            border-radius: 10px;
+          }
+        }
+      }
+      >div:nth-of-type(1){
+
+      }
+      >div:nth-of-type(2){
+        margin: 20px 0;
+      }
+      >div:nth-of-type(3){
+
+      }
+    }
+    //End div samt chap
+  // Start of div samt rast
+    div:nth-of-type(2){
+      width: 65%;
+      >div:nth-of-type(1){
+        width: 100%;
+        >input{
+          width: 325px;
+          box-sizing: border-box;
+          padding: 10px 10px;
+          border: lightgray 1px solid;
+          border-radius: 5px;
+        }
+        >input:nth-of-type(1){
+          margin-right: 18px;
+
+        }
+        >input:nth-of-type(2){
+
+        }
+      }
+      >div:nth-of-type(2){
+        width: 100%;
+        display: flex;
+        flex-flow: column;
+
+        >div{
+          width: 100%;
+          display: flex;
+          justify-content: center;
+        }
+        >input:nth-of-type(1){
+          width: 676px;
+          box-sizing: border-box;
+          padding: 10px 10px;
+          border: lightgray 1px solid;
+          border-radius: 5px;
+          margin-top: 18px;
+        }
+        >textarea{
+          margin-top: 18px;
+          width: 676px;
+          box-sizing: border-box;
+          padding: 10px 10px;
+          border: lightgray 1px solid;
+          border-radius: 5px;
+        }
+        button{
+          width: 150px;
+          height: 45px;
+          background-color: #ffc451;
+          border: 0px;
+          border-radius: 5px;
+          font-size: 15px;
+          margin-top: 20px;
+
+        }
+      }
+    }
+  // End of  samt rast
+  }
+//  End of about
+}
+@media only screen and (min-width: 990px) and (max-width: 1200px){
+  section.c-about{
+    //Start of c-about
+    //matn balaye about
+    width: 100%;
+    height: 200px;
+    box-sizing: border-box;
+    padding-top: 100px;
+    padding-left: 50px;
+    >span{
+      color: gray;
+
+    }
+    >h3{
+      display: inline-block;
+      width: 150px;
+      color: orange;
+      line-height: 0px;
+    }
+    >h2{
+      font-size: 35px;
+      font-weight: bolder;
+    }
+  }
+  //End of c-about
+  //matn balaye about us
+  // Start of about
+  // Start of about
+  section.about{
+    width: 100%;
+    margin-top: 50px;
+    display: flex;
+    flex-flow: row nowrap;
+    //Start div samt chap
+    >div:nth-of-type(1){
+      width: 35%;
+      display: flex;
+      flex-flow: column nowrap;
+      justify-content: center;
+      box-sizing: border-box;
+      padding-left: 85px;
+      >div{
+        width: 100%;
+        >p{
+          color: gray;
+          box-sizing: border-box;
+          padding-left: 50px;
+        }
+        >address{
+          color: gray;
+          box-sizing: border-box;
+          padding-left: 50px;
+        }
+        >h2{
+          line-height: 0px;
+          >i{
+            display: inline-block;
+            box-sizing: border-box;
+            padding:12px;
+            background-color: #ffc451;
+            border-radius: 10px;
+          }
+        }
+      }
+      >div:nth-of-type(1){
+
+      }
+      >div:nth-of-type(2){
+        margin: 20px 0;
+      }
+      >div:nth-of-type(3){
+
+      }
+    }
+    //End div samt chap
+    // Start of div samt rast
+    div:nth-of-type(2){
+      width: 65%;
+      >div:nth-of-type(1){
+        width: 100%;
+        >input{
+          width: 300px;
+          box-sizing: border-box;
+          padding: 10px 10px;
+          border: lightgray 1px solid;
+          border-radius: 5px;
+        }
+        >input:nth-of-type(1){
+          margin-right: 18px;
+
+        }
+        >input:nth-of-type(2){
+
+        }
+      }
+      >div:nth-of-type(2){
+        width: 100%;
+        >div{
+          width: 100%;
+          display: flex;
+          justify-content: center;
+        }
+        >input:nth-of-type(1){
+          width: 626px;
+          box-sizing: border-box;
+          padding: 10px 10px;
+          border: lightgray 1px solid;
+          border-radius: 5px;
+          margin-top: 18px;
+        }
+        >textarea{
+          margin-top: 18px;
+          width: 626px;
+          box-sizing: border-box;
+          padding: 10px 10px;
+          border: lightgray 1px solid;
+          border-radius: 5px;
+        }
+        button{
+          width: 150px;
+          height: 45px;
+          background-color: #ffc451;
+          border: 0px;
+          border-radius: 5px;
+          font-size: 15px;
+          margin-top: 20px;
+
+        }
+      }
+    }
+    // End of  samt rast
+  }
+
+  //  End of about
+//  End of about
+}
+@media only screen and (min-width: 760px) and (max-width: 990px){
+  section.c-about{
+    //Start of c-about
+    //matn balaye about
+    width: 100%;
+    height: 200px;
+    box-sizing: border-box;
+    padding-top: 100px;
+    padding-left: 50px;
+    >span{
+      color: gray;
+
+    }
+    >h3{
+      display: inline-block;
+      width: 150px;
+      color: orange;
+      line-height: 0px;
+    }
+    >h2{
+      font-size: 35px;
+      font-weight: bolder;
+    }
+  }
+  //End of c-about
+  //matn balaye about us
+  // Start of about
+  section.about{
+    width: 100%;
+    margin-top: 50px;
+    display: flex;
+    flex-flow: column;
+    justify-content: center;
+    //Start div samt chap
+    >div:nth-of-type(1){
+      width: 100%;
+      display: flex;
+      flex-flow: column nowrap;
+      justify-content: center;
+      box-sizing: border-box;
+      padding-left: calc(20%);
+      >div{
+        width: 100%;
+
+        >p{
+          color: gray;
+          box-sizing: border-box;
+          padding-left: 50px;
+        }
+        >address{
+          color: gray;
+          box-sizing: border-box;
+          padding-left: 50px;
+        }
+        >h2{
+          line-height: 0px;
+          >i{
+            display: inline-block;
+            box-sizing: border-box;
+            padding:12px;
+            background-color: #ffc451;
+            border-radius: 10px;
+          }
+        }
+      }
+      >div:nth-of-type(1){
+
+      }
+      >div:nth-of-type(2){
+        margin: 20px 0;
+      }
+      >div:nth-of-type(3){
+
+      }
+    }
+    //End div samt chap
+    // Start of div samt rast
+    >div:nth-of-type(2){
+      width: 100%;
+      display:flex;
+      flex-flow: column;
+      justify-content: center;
+      >div:nth-of-type(1){
+        width: 100%;
+        display:flex;
+        flex-flow: row wrap;
+        justify-content: center;
+        margin-top: 25px;
+        >input{
+          width: 300px;
+          box-sizing: border-box;
+          padding: 10px 10px;
+          border: lightgray 1px solid;
+          border-radius: 5px;
+        }
+        >input:nth-of-type(1){
+          margin-right: 18px;
+
+        }
+        >input:nth-of-type(2){
+
+        }
+
+      }
+      >div:nth-of-type(2){
+        width: 100%;
+        display: flex;
+        justify-content: center;
+        flex-flow: column;
+        align-items: center;
+        >div{
+          width: 100%;
+          display: flex;
+          justify-content: center;
+        }
+        >input:nth-of-type(1){
+          width: 626px;
+          box-sizing: border-box;
+          padding: 10px 10px;
+          border: lightgray 1px solid;
+          border-radius: 5px;
+          margin-top: 18px;
+        }
+        >textarea{
+          margin-top: 18px;
+          width: 626px;
+          box-sizing: border-box;
+          padding: 10px 10px;
+          border: lightgray 1px solid;
+          border-radius: 5px;
+        }
+        button{
+          width: 150px;
+          height: 45px;
+          background-color: #ffc451;
+          border: 0px;
+          border-radius: 5px;
+          font-size: 15px;
+          margin-top: 20px;
+
+        }
+      }
+    }
+    // End of  samt rast
+  }
+//  End of about
+}
+@media only screen and (min-width: 480px) and (max-width: 760px){
+  section.c-about{
+    //Start of c-about
+    //matn balaye about
+    width: 100%;
+    height: 200px;
+    box-sizing: border-box;
+    padding-top: 100px;
+    padding-left: 50px;
+    >span{
+      color: gray;
+
+    }
+    >h3{
+      display: inline-block;
+      width: 150px;
+      color: orange;
+      line-height: 0px;
+    }
+    >h2{
+      font-size: 35px;
+      font-weight: bolder;
+    }
+  }
+  //End of c-about
+  //matn balaye about us
+  // Start of about
+  section.about{
+    width: 100%;
+    margin-top: 50px;
+    display: flex;
+    flex-flow: column;
+    justify-content: center;
+    //Start div samt chap
+    >div:nth-of-type(1){
+      width: 100%;
+      display: flex;
+      flex-flow: column nowrap;
+      justify-content: center;
+      box-sizing: border-box;
+      padding-left: calc(20%);
+      >div{
+        width: 100%;
+
+        >p{
+          color: gray;
+          box-sizing: border-box;
+          padding-left: 50px;
+        }
+        >address{
+          color: gray;
+          box-sizing: border-box;
+          padding-left: 50px;
+        }
+        >h2{
+          line-height: 0px;
+          >i{
+            display: inline-block;
+            box-sizing: border-box;
+            padding:12px;
+            background-color: #ffc451;
+            border-radius: 10px;
+          }
+        }
+      }
+      >div:nth-of-type(1){
+
+      }
+      >div:nth-of-type(2){
+        margin: 20px 0;
+      }
+      >div:nth-of-type(3){
+
+      }
+    }
+    //End div samt chap
+    // Start of div samt rast
+    >div:nth-of-type(2){
+      width: 100%;
+      display:flex;
+      flex-flow: column;
+      justify-content: center;
+      >div:nth-of-type(1){
+        width: 100%;
+        display:flex;
+        flex-flow: row wrap;
+        justify-content: center;
+        margin-top: 25px;
+        >input{
+          width: 40%;
+          box-sizing: border-box;
+          padding: 10px 10px;
+          border: lightgray 1px solid;
+          border-radius: 5px;
+        }
+        >input:nth-of-type(1){
+          margin-right: 18px;
+
+        }
+        >input:nth-of-type(2){
+
+        }
+      }
+      >div:nth-of-type(2){
+        width: 100%;
+        display: flex;
+        justify-content: center;
+        flex-flow: column;
+        align-items: center;
+        >div{
+          width: 100%;
+          display: flex;
+          justify-content: center;
+        }
+        >input:nth-of-type(1){
+          width:80%;
+          box-sizing: border-box;
+          padding: 10px 10px;
+          border: lightgray 1px solid;
+          border-radius: 5px;
+          margin-top: 18px;
+        }
+        >textarea{
+          margin-top: 18px;
+          width: 80%;
+          box-sizing: border-box;
+          padding: 10px 10px;
+          border: lightgray 1px solid;
+          border-radius: 5px;
+        }
+        button{
+          width: 150px;
+          height: 45px;
+          background-color: #ffc451;
+          border: 0px;
+          border-radius: 5px;
+          font-size: 15px;
+          margin-top: 20px;
+
+        }
+      }
+    }
+    // End of  samt rast
+  }
+  //  End of about
+}
+@media only screen and (max-width: 480px){
+  section.c-about{
+    //Start of c-about
+    //matn balaye about
+    width: 100%;
+    height: 200px;
+    box-sizing: border-box;
+    padding-top: 100px;
+    padding-left: 50px;
+    >span{
+      color: gray;
+
+    }
+    >h3{
+      display: inline-block;
+      width: 150px;
+      color: orange;
+      line-height: 0px;
+    }
+    >h2{
+      font-size: 35px;
+      font-weight: bolder;
+    }
+  }
+  //End of c-about
+  //matn balaye about us
+  // Start of about
+  section.about{
+    width: 100%;
+    margin-top: 50px;
+    display: flex;
+    flex-flow: column;
+    justify-content: center;
+    //Start div samt chap
+    >div:nth-of-type(1){
+      width: 100%;
+      display: flex;
+      flex-flow: column nowrap;
+      justify-content: center;
+      box-sizing: border-box;
+      padding-left: calc(20%);
+      >div{
+        width: 100%;
+
+        >p{
+          color: gray;
+          box-sizing: border-box;
+          padding-left: 50px;
+        }
+        >address{
+          color: gray;
+          box-sizing: border-box;
+          padding-left: 50px;
+        }
+        >h2{
+          line-height: 0px;
+          >i{
+            display: inline-block;
+            box-sizing: border-box;
+            padding:12px;
+            background-color: #ffc451;
+            border-radius: 10px;
+          }
+        }
+      }
+      >div:nth-of-type(1){
+
+      }
+      >div:nth-of-type(2){
+        margin: 20px 0;
+      }
+      >div:nth-of-type(3){
+
+      }
+    }
+    //End div samt chap
+    // Start of div samt rast
+    >div:nth-of-type(2){
+      width: 100%;
+      display:flex;
+      flex-flow: column;
+      justify-content: center;
+      >div:nth-of-type(1){
+        width: 100%;
+        display:flex;
+        flex-flow: row wrap;
+        justify-content: center;
+        margin-top: 25px;
+        >input{
+          width: 40%;
+          box-sizing: border-box;
+          padding: 10px 10px;
+          border: lightgray 1px solid;
+          border-radius: 5px;
+        }
+        >input:nth-of-type(1){
+          margin-right: 18px;
+
+        }
+        >input:nth-of-type(2){
+
+        }
+      }
+      >div:nth-of-type(2){
+        width: 100%;
+        display: flex;
+        justify-content: center;
+        flex-flow: column;
+        align-items: center;
+        >div{
+          width: 100%;
+          display: flex;
+          justify-content: center;
+        }
+        >input:nth-of-type(1){
+          width:80%;
+          box-sizing: border-box;
+          padding: 10px 10px;
+          border: lightgray 1px solid;
+          border-radius: 5px;
+          margin-top: 18px;
+        }
+        >textarea{
+          margin-top: 18px;
+          width: 80%;
+          box-sizing: border-box;
+          padding: 10px 10px;
+          border: lightgray 1px solid;
+          border-radius: 5px;
+        }
+        button{
+          width: 150px;
+          height: 45px;
+          background-color: #ffc451;
+          border: 0px;
+          border-radius: 5px;
+          font-size: 15px;
+          margin-top: 20px;
+
+        }
+      }
+    }
+    // End of  samt rast
+  }
+  //  End of about
+}

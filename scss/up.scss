@@ -1,0 +1,16 @@
+section.up{
+  width: auto;
+  z-index: 10;
+  position: fixed;
+  top: 650px;
+  right: 30px;
+  >a{
+    box-sizing: border-box;
+    padding: 10px 12px;
+    background-color: #ffc451;
+    color: black;
+    border-radius: 5px;
+    font-weight: bold;
+
+  }
+}

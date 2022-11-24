@@ -1,0 +1,5 @@
+@mixin pic($height,$width,$display:inline-block){
+  height: $height;
+  width: $width;
+  display:$display;
+}

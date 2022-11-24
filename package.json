@@ -1,0 +1,19 @@
+{
+  "name": "projects-sass-final-mtf",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "scss": "sass -w scss/ -o css/ -r"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "bootstrap": "^5.2.1",
+    "bootstrap-icons": "^1.9.1",
+    "live-server": "^1.2.2",
+    "sass": "^1.54.8",
+    "swiper": "^8.3.2"
+  }
+}

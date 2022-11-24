@@ -1,0 +1,1205 @@
+@media only screen and (min-width: 1200px) {
+  //Start of C-portfolio
+  //matn balaye sportfolio
+  section.C-portfolio{
+    width: 100%;
+    height: 200px;
+    box-sizing: border-box;
+    padding-top: 75px;
+    padding-left: 50px;
+    >span{
+      color: gray;
+
+    }
+    >h3{
+      display: inline-block;
+      width: 150px;
+      color: orange;
+      line-height: 0px;
+    }
+    >h2{
+      font-size: 35px;
+      font-weight: bolder;
+    }
+  }
+  //End of C-portfolio
+  //matn balaye portfolio
+  // Start of portfolio
+  section.portfolio{
+    width: 100%;
+    height:auto;
+    background-color: white;
+    box-sizing: border-box;
+
+    >div:nth-of-type(1){
+      width: 100%;
+      height: auto;
+      display: flex;
+      justify-content: center;
+      background-color: #eeeeee;
+      padding-bottom: 15px;
+      >span{
+        display: inline-block;
+        box-sizing: border-box;
+        padding-left:15px;
+        padding-right:15px;
+        padding-top:5px;
+        padding-bottom: 5px;
+        transition: all 200ms linear;
+        border-radius: 8px;
+        font-size: 16px;
+        cursor: pointer;
+        &:hover{
+          background-color: #ffc451;
+        }
+      }
+    }
+    >section.portfolio-boxs{
+      width:100%;
+      background-color: white;
+      display: flex;
+      flex-flow: row wrap;
+      box-sizing: border-box;
+      justify-content: center;
+      padding-top: 20px;
+      >img{
+
+        :hover{
+
+        }
+      }
+      >div{
+        margin-bottom: 20px;
+        position: relative;
+        overflow: hidden;
+        &:hover > div{
+          left: 0;
+        }
+        >div{
+          width: 100% !important;
+          height: 400px!important;
+          position: absolute;
+          top: 0;
+          left: -100%;
+          transition: all 300ms linear;
+          background-color: rgba(2,2,2,0.5) !important;
+          box-sizing: border-box;
+          padding-top: 270px;
+          padding-left: 30px;
+          font-size: 25px;
+          color: white;
+        }
+      }
+      >div:nth-of-type(1){
+        width:30%;
+        height: 400px;
+        box-sizing: border-box;
+        margin-right: 25px;
+        >img{
+          width: 100%;
+          height: inherit;
+        }
+        >div{
+          width: 100%;
+          height: inherit;
+          background-color: #2b2b2b;
+        }
+      }
+      >div:nth-of-type(2){
+        width:30%;
+        height: 400px;
+        box-sizing: border-box;
+        margin-right: 25px;
+
+        //top: 70px;
+        >img{
+          width: 100%;
+          height: inherit;
+
+
+        }
+        >div{
+          width: 100%;
+          height: 500px;
+          background-color: #2b2b2b;
+        }
+      }
+      >div:nth-of-type(3){
+
+        box-sizing: border-box;
+        width:30%;
+        height: 400px;
+        >img{
+          width: 100%;
+          height: inherit;
+        }
+        >div{
+          width: 100%;
+          height: inherit;
+          background-color: #2b2b2b;
+
+        }
+      }
+      >div:nth-of-type(4){
+        box-sizing: border-box;
+        width:30%;
+        height: 400px;
+        margin-right: 25px;
+
+        >img{
+          width: 100%;
+          height: inherit;
+        }
+        >div{
+          width: 100%;
+          height: inherit;
+          background-color: #2b2b2b;
+
+        }
+      }
+      >div:nth-of-type(5){
+
+        box-sizing: border-box;
+        width:30%;
+        height: 400px;
+        margin-right: 25px;
+
+        >img{
+          width: 100%;
+          height: inherit;
+        }
+        >div{
+          width: 100%;
+          height: inherit;
+          background-color: #2b2b2b;
+        }
+      }
+      >div:nth-of-type(6){
+        box-sizing: border-box;
+        width:30%;
+        height: 400px;
+        >img{
+          width: 100%;
+          height: inherit;
+        }
+        >div{
+          width: 100%;
+          height: inherit;
+          background-color: #2b2b2b;
+        }
+      }
+      >div:nth-of-type(7){
+        width:30%;
+        height: 400px;
+        margin-right: 25px;
+        >img{
+          width: 100%;
+          height: inherit;
+
+        }
+        >div{
+          width: 100%;
+          height: inherit;
+          background-color: #2b2b2b;
+        }
+      }
+      >div:nth-of-type(8){
+        width:30%;
+        height: 400px;
+        margin-right: 25px;
+        box-sizing: border-box;
+
+        >img{
+          width: 100%;
+          height: inherit;
+        }
+        >div{
+          width: 100%;
+          height: inherit;
+          background-color: #2b2b2b;
+        }
+      }
+      >div:nth-of-type(9){
+        box-sizing: border-box;
+        width:30%;
+        height: 400px;
+        >img{
+          width: 100%;
+          height: inherit;
+
+        }
+        >div{
+          width: 100%;
+          height: inherit;
+          background-color: #2b2b2b;
+        }
+      }
+    }
+  }
+  //  End of portfolio
+}
+
+@media only screen and (min-width: 990px) and (max-width: 1200px) {
+  //Start of C-portfolio
+  //matn balaye sportfolio
+  section.C-portfolio{
+    width: 100%;
+    height: 200px;
+    box-sizing: border-box;
+    padding-top: 75px;
+    padding-left: 50px;
+    >span{
+      color: gray;
+
+    }
+    >h3{
+      display: inline-block;
+      width: 150px;
+      color: orange;
+      line-height: 0px;
+    }
+    >h2{
+      font-size: 35px;
+      font-weight: bolder;
+    }
+  }
+  //End of C-portfolio
+  //matn balaye portfolio
+  // Start of portfolio
+  section.portfolio{
+    width: 100%;
+    height:auto;
+    background-color: white;
+    box-sizing: border-box;
+
+    >div:nth-of-type(1){
+      width: 100%;
+      height: auto;
+      display: flex;
+      justify-content: center;
+      background-color: #eeeeee;
+      padding-bottom: 15px;
+      >span{
+        display: inline-block;
+        box-sizing: border-box;
+        padding-left:15px;
+        padding-right:15px;
+        padding-top:5px;
+        padding-bottom: 5px;
+        transition: all 200ms linear;
+        border-radius: 8px;
+        font-size: 16px;
+        cursor: pointer;
+        &:hover{
+          background-color: #ffc451;
+        }
+      }
+    }
+    >section.portfolio-boxs{
+      width:100%;
+      background-color: white;
+      display: flex;
+      flex-flow: row wrap;
+      box-sizing: border-box;
+      justify-content: center;
+      padding-top: 20px;
+      >img{
+
+        :hover{
+
+        }
+      }
+      >div{
+        margin-bottom: 20px;
+        position: relative;
+        overflow: hidden;
+        &:hover > div{
+          left: 0;
+        }
+        >div{
+          width: 100% !important;
+          height: 400px!important;
+          position: absolute;
+          top: 0;
+          left: -100%;
+          transition: all 300ms linear;
+          background-color: rgba(2,2,2,0.5) !important;
+          box-sizing: border-box;
+          padding-top: 270px;
+          padding-left: 30px;
+          font-size: 25px;
+          color: white;
+        }
+      }
+      >div:nth-of-type(1){
+        width:30%;
+        height: 400px;
+        box-sizing: border-box;
+        margin-right: 25px;
+        >img{
+          width: 100%;
+          height: inherit;
+        }
+        >div{
+          width: 100%;
+          height: inherit;
+          background-color: #2b2b2b;
+        }
+      }
+      >div:nth-of-type(2){
+        width:30%;
+        height: 400px;
+        box-sizing: border-box;
+        margin-right: 25px;
+
+        //top: 70px;
+        >img{
+          width: 100%;
+          height: inherit;
+
+
+        }
+        >div{
+          width: 100%;
+          height: 500px;
+          background-color: #2b2b2b;
+        }
+      }
+      >div:nth-of-type(3){
+
+        box-sizing: border-box;
+        width:30%;
+        height: 400px;
+        >img{
+          width: 100%;
+          height: inherit;
+        }
+        >div{
+          width: 100%;
+          height: inherit;
+          background-color: #2b2b2b;
+
+        }
+      }
+      >div:nth-of-type(4){
+        box-sizing: border-box;
+        width:30%;
+        height: 400px;
+        margin-right: 25px;
+
+        >img{
+          width: 100%;
+          height: inherit;
+        }
+        >div{
+          width: 100%;
+          height: inherit;
+          background-color: #2b2b2b;
+
+        }
+      }
+      >div:nth-of-type(5){
+
+        box-sizing: border-box;
+        width:30%;
+        height: 400px;
+        margin-right: 25px;
+
+        >img{
+          width: 100%;
+          height: inherit;
+        }
+        >div{
+          width: 100%;
+          height: inherit;
+          background-color: #2b2b2b;
+        }
+      }
+      >div:nth-of-type(6){
+        box-sizing: border-box;
+        width:30%;
+        height: 400px;
+        >img{
+          width: 100%;
+          height: inherit;
+        }
+        >div{
+          width: 100%;
+          height: inherit;
+          background-color: #2b2b2b;
+        }
+      }
+      >div:nth-of-type(7){
+        width:30%;
+        height: 400px;
+        margin-right: 25px;
+        >img{
+          width: 100%;
+          height: inherit;
+
+        }
+        >div{
+          width: 100%;
+          height: inherit;
+          background-color: #2b2b2b;
+        }
+      }
+      >div:nth-of-type(8){
+        width:30%;
+        height: 400px;
+        margin-right: 25px;
+        box-sizing: border-box;
+
+        >img{
+          width: 100%;
+          height: inherit;
+        }
+        >div{
+          width: 100%;
+          height: inherit;
+          background-color: #2b2b2b;
+        }
+      }
+      >div:nth-of-type(9){
+        box-sizing: border-box;
+        width:30%;
+        height: 400px;
+        >img{
+          width: 100%;
+          height: inherit;
+
+        }
+        >div{
+          width: 100%;
+          height: inherit;
+          background-color: #2b2b2b;
+        }
+      }
+    }
+  }
+  //  End of portfolio
+}
+
+@media only screen and (min-width: 760px) and (max-width: 990px) {
+  //Start of C-portfolio
+  //matn balaye sportfolio
+  section.C-portfolio{
+    width: 100%;
+    height: 200px;
+    box-sizing: border-box;
+    padding-top: 75px;
+    padding-left: 50px;
+    >span{
+      color: gray;
+
+    }
+    >h3{
+      display: inline-block;
+      width: 150px;
+      color: orange;
+      line-height: 0px;
+    }
+    >h2{
+      font-size: 35px;
+      font-weight: bolder;
+    }
+  }
+  //End of C-portfolio
+  //matn balaye portfolio
+  // Start of portfolio
+  section.portfolio{
+    width: 100%;
+    height:auto;
+    background-color: white;
+    box-sizing: border-box;
+
+    >div:nth-of-type(1){
+      width: 100%;
+      height: auto;
+      display: flex;
+      justify-content: center;
+      background-color: #eeeeee;
+      padding-bottom: 15px;
+      >span{
+        display: inline-block;
+        box-sizing: border-box;
+        padding-left:15px;
+        padding-right:15px;
+        padding-top:5px;
+        padding-bottom: 5px;
+        transition: all 200ms linear;
+        border-radius: 8px;
+        font-size: 16px;
+        cursor: pointer;
+        &:hover{
+          background-color: #ffc451;
+        }
+      }
+    }
+    >section.portfolio-boxs{
+      width:100%;
+      background-color: white;
+      display: flex;
+      flex-flow: row wrap;
+      box-sizing: border-box;
+      justify-content: center;
+      padding-top: 20px;
+      >img{
+
+        :hover{
+
+        }
+      }
+      >div{
+        margin-bottom: 20px;
+        position: relative;
+        overflow: hidden;
+        width: 40% !important;
+        &:hover > div{
+          left: 0;
+        }
+        >div{
+          width: 100% !important;
+          height: 400px!important;
+          position: absolute;
+          top: 0;
+          left: -100%;
+          transition: all 300ms linear;
+          background-color: rgba(2,2,2,0.5) !important;
+          box-sizing: border-box;
+          padding-top: 270px;
+          padding-left: 30px;
+          font-size: 25px;
+          color: white;
+        }
+      }
+      >div:nth-of-type(1){
+        width:30%;
+        height: 400px;
+        box-sizing: border-box;
+        margin-right: 25px;
+        >img{
+          width: 100%;
+          height: inherit;
+        }
+        >div{
+          width: 100%;
+          height: inherit;
+          background-color: #2b2b2b;
+        }
+      }
+      >div:nth-of-type(2){
+        width:30%;
+        height: 400px;
+        box-sizing: border-box;
+
+        //top: 70px;
+        >img{
+          width: 100%;
+          height: inherit;
+
+
+        }
+        >div{
+          width: 100%;
+          height: 500px;
+          background-color: #2b2b2b;
+        }
+      }
+      >div:nth-of-type(3){
+        box-sizing: border-box;
+        width:30%;
+        height: 400px;
+        margin-right: 25px;
+        >img{
+          width: 100%;
+          height: inherit;
+        }
+        >div{
+          width: 100%;
+          height: inherit;
+          background-color: #2b2b2b;
+
+        }
+      }
+      >div:nth-of-type(4){
+        box-sizing: border-box;
+        width:30%;
+        height: 400px;
+
+
+        >img{
+          width: 100%;
+          height: inherit;
+        }
+        >div{
+          width: 100%;
+          height: inherit;
+          background-color: #2b2b2b;
+
+        }
+      }
+      >div:nth-of-type(5){
+
+        box-sizing: border-box;
+        width:30%;
+        height: 400px;
+        margin-right: 25px;
+
+        >img{
+          width: 100%;
+          height: inherit;
+        }
+        >div{
+          width: 100%;
+          height: inherit;
+          background-color: #2b2b2b;
+        }
+      }
+      >div:nth-of-type(6){
+        box-sizing: border-box;
+        width:30%;
+        height: 400px;
+        >img{
+          width: 100%;
+          height: inherit;
+        }
+        >div{
+          width: 100%;
+          height: inherit;
+          background-color: #2b2b2b;
+        }
+      }
+      >div:nth-of-type(7){
+        width:30%;
+        height: 400px;
+        margin-right: 25px;
+        >img{
+          width: 100%;
+          height: inherit;
+
+        }
+        >div{
+          width: 100%;
+          height: inherit;
+          background-color: #2b2b2b;
+        }
+      }
+      >div:nth-of-type(8){
+        width:30%;
+        height: 400px;
+        box-sizing: border-box;
+
+        >img{
+          width: 100%;
+          height: inherit;
+        }
+        >div{
+          width: 100%;
+          height: inherit;
+          background-color: #2b2b2b;
+        }
+      }
+      >div:nth-of-type(9){
+        box-sizing: border-box;
+        width:30%;
+        height: 400px;
+        >img{
+          width: 100%;
+          height: inherit;
+
+        }
+        >div{
+          width: 100%;
+          height: inherit;
+          background-color: #2b2b2b;
+        }
+      }
+    }
+  }
+  //  End of portfolio
+}
+
+@media only screen and (min-width: 480px) and (max-width: 760px) {
+  //Start of C-portfolio
+  //matn balaye sportfolio
+  section.C-portfolio{
+    width: 100%;
+    height: 200px;
+    box-sizing: border-box;
+    padding-top: 75px;
+    padding-left: 50px;
+    >span{
+      color: gray;
+
+    }
+    >h3{
+      display: inline-block;
+      width: 150px;
+      color: orange;
+      line-height: 0px;
+    }
+    >h2{
+      font-size: 35px;
+      font-weight: bolder;
+    }
+  }
+  //End of C-portfolio
+  //matn balaye portfolio
+  // Start of portfolio
+  section.portfolio{
+    width: 100%;
+    height:auto;
+    background-color: white;
+    box-sizing: border-box;
+
+    >div:nth-of-type(1){
+      width: 100%;
+      height: auto;
+      display: flex;
+      justify-content: center;
+      background-color: #eeeeee;
+      padding-bottom: 15px;
+      >span{
+        display: inline-block;
+        box-sizing: border-box;
+        padding-left:15px;
+        padding-right:15px;
+        padding-top:5px;
+        padding-bottom: 5px;
+        transition: all 200ms linear;
+        border-radius: 8px;
+        font-size: 16px;
+        cursor: pointer;
+        &:hover{
+          background-color: #ffc451;
+        }
+      }
+    }
+    >section.portfolio-boxs{
+      width:100%;
+      background-color: white;
+      display: flex;
+      flex-flow: row wrap;
+      box-sizing: border-box;
+      justify-content: center;
+      padding-top: 20px;
+      >img{
+
+        :hover{
+
+        }
+      }
+      >div{
+        margin-bottom: 20px;
+        position: relative;
+        overflow: hidden;
+        width: 80% !important;
+        height:500px !important;
+        margin-right: 0!important;
+        &:hover > div{
+          left: 0;
+        }
+        >div{
+          width: 100% !important;
+          height: 500px!important;
+          position: absolute;
+          top: 0;
+          left: -100%;
+          transition: all 300ms linear;
+          background-color: rgba(2,2,2,0.5) !important;
+          box-sizing: border-box;
+          padding-top: 370px;
+          padding-left: 30px;
+          font-size: 25px;
+          color: white;
+        }
+      }
+      >div:nth-of-type(1){
+        width:30%;
+        height: 400px;
+        box-sizing: border-box;
+        margin-right: 25px;
+        >img{
+          width: 100%;
+          height: inherit;
+        }
+        >div{
+          width: 100%;
+          height: inherit;
+          background-color: #2b2b2b;
+        }
+      }
+      >div:nth-of-type(2){
+        width:30%;
+        height: 400px;
+        box-sizing: border-box;
+
+        //top: 70px;
+        >img{
+          width: 100%;
+          height: inherit;
+
+
+        }
+        >div{
+          width: 100%;
+          height: 500px;
+          background-color: #2b2b2b;
+        }
+      }
+      >div:nth-of-type(3){
+        box-sizing: border-box;
+        width:30%;
+        height: 400px;
+        margin-right: 25px;
+        >img{
+          width: 100%;
+          height: inherit;
+        }
+        >div{
+          width: 100%;
+          height: inherit;
+          background-color: #2b2b2b;
+
+        }
+      }
+      >div:nth-of-type(4){
+        box-sizing: border-box;
+        width:30%;
+        height: 400px;
+
+
+        >img{
+          width: 100%;
+          height: inherit;
+        }
+        >div{
+          width: 100%;
+          height: inherit;
+          background-color: #2b2b2b;
+
+        }
+      }
+      >div:nth-of-type(5){
+
+        box-sizing: border-box;
+        width:30%;
+        height: 400px;
+        margin-right: 25px;
+
+        >img{
+          width: 100%;
+          height: inherit;
+        }
+        >div{
+          width: 100%;
+          height: inherit;
+          background-color: #2b2b2b;
+        }
+      }
+      >div:nth-of-type(6){
+        box-sizing: border-box;
+        width:30%;
+        height: 400px;
+        >img{
+          width: 100%;
+          height: inherit;
+        }
+        >div{
+          width: 100%;
+          height: inherit;
+          background-color: #2b2b2b;
+        }
+      }
+      >div:nth-of-type(7){
+        width:30%;
+        height: 400px;
+        margin-right: 25px;
+        >img{
+          width: 100%;
+          height: inherit;
+
+        }
+        >div{
+          width: 100%;
+          height: inherit;
+          background-color: #2b2b2b;
+        }
+      }
+      >div:nth-of-type(8){
+        width:30%;
+        height: 400px;
+        box-sizing: border-box;
+
+        >img{
+          width: 100%;
+          height: inherit;
+        }
+        >div{
+          width: 100%;
+          height: inherit;
+          background-color: #2b2b2b;
+        }
+      }
+      >div:nth-of-type(9){
+        box-sizing: border-box;
+        width:30%;
+        height: 400px;
+        >img{
+          width: 100%;
+          height: inherit;
+
+        }
+        >div{
+          width: 100%;
+          height: inherit;
+          background-color: #2b2b2b;
+        }
+      }
+    }
+  }
+  //  End of portfolio
+}
+
+@media only screen and(max-width: 480px) {
+  //Start of C-portfolio
+  //matn balaye sportfolio
+  section.C-portfolio{
+    width: 100%;
+    height: 200px;
+    box-sizing: border-box;
+    padding-top: 75px;
+    padding-left: 50px;
+    >span{
+      color: gray;
+
+    }
+    >h3{
+      display: inline-block;
+      width: 150px;
+      color: orange;
+      line-height: 0px;
+    }
+    >h2{
+      font-size: 35px;
+      font-weight: bolder;
+    }
+  }
+  //End of C-portfolio
+  //matn balaye portfolio
+  // Start of portfolio
+  section.portfolio{
+    width: 100%;
+    height:auto;
+    background-color: white;
+    box-sizing: border-box;
+
+    >div:nth-of-type(1){
+      width: 100%;
+      height: auto;
+      display: flex;
+      justify-content: center;
+      background-color: #eeeeee;
+      padding-bottom: 15px;
+      >span{
+        display: inline-block;
+        box-sizing: border-box;
+        padding-left:15px;
+        padding-right:15px;
+        padding-top:5px;
+        padding-bottom: 5px;
+        transition: all 200ms linear;
+        border-radius: 8px;
+        font-size: 16px;
+        cursor: pointer;
+        &:hover{
+          background-color: #ffc451;
+        }
+      }
+    }
+    >section.portfolio-boxs{
+      width:100%;
+      background-color: white;
+      display: flex;
+      flex-flow: row wrap;
+      box-sizing: border-box;
+      justify-content: center;
+      padding-top: 20px;
+      >img{
+
+        :hover{
+
+        }
+      }
+      >div{
+        margin-bottom: 20px;
+        position: relative;
+        overflow: hidden;
+        width: 90% !important;
+        height:500px !important;
+        margin-right: 0!important;
+        &:hover > div{
+          left: 0;
+        }
+        >div{
+          width: 100% !important;
+          height: 500px!important;
+          position: absolute;
+          top: 0;
+          left: -100%;
+          transition: all 300ms linear;
+          background-color: rgba(2,2,2,0.5) !important;
+          box-sizing: border-box;
+          padding-top: 370px;
+          padding-left: 30px;
+          font-size: 25px;
+          color: white;
+        }
+      }
+      >div:nth-of-type(1){
+        width:30%;
+        height: 400px;
+        box-sizing: border-box;
+        margin-right: 25px;
+        >img{
+          width: 100%;
+          height: inherit;
+        }
+        >div{
+          width: 100%;
+          height: inherit;
+          background-color: #2b2b2b;
+        }
+      }
+      >div:nth-of-type(2){
+        width:30%;
+        height: 400px;
+        box-sizing: border-box;
+
+        //top: 70px;
+        >img{
+          width: 100%;
+          height: inherit;
+
+
+        }
+        >div{
+          width: 100%;
+          height: 500px;
+          background-color: #2b2b2b;
+        }
+      }
+      >div:nth-of-type(3){
+        box-sizing: border-box;
+        width:30%;
+        height: 400px;
+        margin-right: 25px;
+        >img{
+          width: 100%;
+          height: inherit;
+        }
+        >div{
+          width: 100%;
+          height: inherit;
+          background-color: #2b2b2b;
+
+        }
+      }
+      >div:nth-of-type(4){
+        box-sizing: border-box;
+        width:30%;
+        height: 400px;
+
+
+        >img{
+          width: 100%;
+          height: inherit;
+        }
+        >div{
+          width: 100%;
+          height: inherit;
+          background-color: #2b2b2b;
+
+        }
+      }
+      >div:nth-of-type(5){
+
+        box-sizing: border-box;
+        width:30%;
+        height: 400px;
+        margin-right: 25px;
+
+        >img{
+          width: 100%;
+          height: inherit;
+        }
+        >div{
+          width: 100%;
+          height: inherit;
+          background-color: #2b2b2b;
+        }
+      }
+      >div:nth-of-type(6){
+        box-sizing: border-box;
+        width:30%;
+        height: 400px;
+        >img{
+          width: 100%;
+          height: inherit;
+        }
+        >div{
+          width: 100%;
+          height: inherit;
+          background-color: #2b2b2b;
+        }
+      }
+      >div:nth-of-type(7){
+        width:30%;
+        height: 400px;
+        margin-right: 25px;
+        >img{
+          width: 100%;
+          height: inherit;
+
+        }
+        >div{
+          width: 100%;
+          height: inherit;
+          background-color: #2b2b2b;
+        }
+      }
+      >div:nth-of-type(8){
+        width:30%;
+        height: 400px;
+        box-sizing: border-box;
+
+        >img{
+          width: 100%;
+          height: inherit;
+        }
+        >div{
+          width: 100%;
+          height: inherit;
+          background-color: #2b2b2b;
+        }
+      }
+      >div:nth-of-type(9){
+        box-sizing: border-box;
+        width:30%;
+        height: 400px;
+        >img{
+          width: 100%;
+          height: inherit;
+
+        }
+        >div{
+          width: 100%;
+          height: inherit;
+          background-color: #2b2b2b;
+        }
+      }
+    }
+  }
+  //  End of portfolio
+}

@@ -1,0 +1,728 @@
+@media only screen and (min-width: 1200px) {
+  section.menu-3{
+    width: 100%;
+    height:615px;
+    background-color: rgba(0, 0, 0, 0.6);
+    display: flex;
+    flex-flow: row;
+    justify-content: center;
+    >div{
+      margin-top: 100px;
+
+    }
+    >div:nth-of-type(1){
+      width:175px;
+      height: 175px;
+      text-align: center;
+      border: 1px solid white;
+      box-sizing: border-box;
+      padding-top: 55px;
+      margin-right: 50px;
+      transition: all 200ms linear;
+      &:hover{
+        border:1px solid orange;
+      }
+      >p{
+        color: orange;
+        font-size: 35px;
+
+      }
+      >h3{
+        color: white;
+        transition: all 200ms linear;
+        cursor:pointer;
+        &:hover{
+          color: orange;
+        }
+      }
+    }
+    >div:nth-of-type(2){
+      width:175px;
+      height: 175px;
+      text-align: center;
+      border: 1px solid white;
+      box-sizing: border-box;
+      padding-top: 55px;
+      margin-right: 50px;
+      transition: all 200ms linear;
+      &:hover{
+        border:1px solid orange;
+      }
+      >p{
+        color: orange;
+        font-size: 35px;
+
+      }
+      >h3{
+        color: white;
+        transition: all 200ms linear;
+        cursor:pointer;
+
+        &:hover{
+          color: orange;
+        }
+      }
+    }
+    >div:nth-of-type(3){
+      width:175px;
+      height: 175px;
+      text-align: center;
+      border: 1px solid white;
+      box-sizing: border-box;
+      padding-top: 55px;
+      margin-right: 50px;
+      transition: all 200ms linear;
+      &:hover{
+        border:1px solid orange;
+      }
+      >p{
+        color: orange;
+        font-size: 35px;
+
+      }
+      >h3{
+        color: white;
+        transition: all 200ms linear;
+        cursor:pointer;
+
+        &:hover{
+          color: orange;
+        }
+      }
+    }
+    >div:nth-of-type(4){
+      width:175px;
+      height: 175px;
+      text-align: center;
+      border: 1px solid white;
+      box-sizing: border-box;
+      padding-top: 55px;
+      margin-right: 50px;
+      transition: all 200ms linear;
+      &:hover{
+        border:1px solid orange;
+      }
+      >p{
+        color: orange;
+        font-size: 35px;
+
+      }
+      >h3{
+        color: white;
+        transition: all 200ms linear;
+        cursor:pointer;
+
+        &:hover{
+          color: orange;
+        }
+      }
+
+    }
+    >div:nth-of-type(5){
+      width:175px;
+      height: 175px;
+      text-align: center;
+      border: 1px solid white;
+      box-sizing: border-box;
+      padding-top: 55px;
+      transition: all 200ms linear;
+      &:hover{
+        border:1px solid orange;
+      }
+      >p{
+        color: orange;
+        font-size: 35px;
+      }
+      >h3{
+        color: white;
+        transition: all 200ms linear;
+        cursor:pointer;
+
+        &:hover{
+          color: orange;
+        }
+      }
+    }
+  }
+}
+@media only screen and (min-width: 990px) and (max-width: 1200px) {
+  section.menu-3{
+    width: 100%;
+    height:615px;
+    background-color: rgba(0, 0, 0, 0.6);
+    display: flex;
+    flex-flow: row;
+    justify-content: center;
+    >div{
+      margin-top: 100px;
+
+    }
+    >div:nth-of-type(1){
+      width:175px;
+      height: 175px;
+      text-align: center;
+      border: 1px solid white;
+      box-sizing: border-box;
+      padding-top: 55px;
+      margin-right: 40px;
+      transition: all 200ms linear;
+      &:hover{
+        border:1px solid orange;
+      }
+      >p{
+        color: orange;
+        font-size: 35px;
+
+      }
+      >h3{
+        color: white;
+        transition: all 200ms linear;
+        cursor:pointer;
+        &:hover{
+          color: orange;
+        }
+      }
+    }
+    >div:nth-of-type(2){
+      width:175px;
+      height: 175px;
+      text-align: center;
+      border: 1px solid white;
+      box-sizing: border-box;
+      padding-top: 55px;
+      margin-right: 40px;
+      transition: all 200ms linear;
+      &:hover{
+        border:1px solid orange;
+      }
+      >p{
+        color: orange;
+        font-size: 35px;
+
+      }
+      >h3{
+        color: white;
+        transition: all 200ms linear;
+        cursor:pointer;
+
+        &:hover{
+          color: orange;
+        }
+      }
+    }
+    >div:nth-of-type(3){
+      width:175px;
+      height: 175px;
+      text-align: center;
+      border: 1px solid white;
+      box-sizing: border-box;
+      padding-top: 55px;
+      margin-right: 40px;
+      transition: all 200ms linear;
+      &:hover{
+        border:1px solid orange;
+      }
+      >p{
+        color: orange;
+        font-size: 35px;
+
+      }
+      >h3{
+        color: white;
+        transition: all 200ms linear;
+        cursor:pointer;
+
+        &:hover{
+          color: orange;
+        }
+      }
+    }
+    >div:nth-of-type(4){
+      width:175px;
+      height: 175px;
+      text-align: center;
+      border: 1px solid white;
+      box-sizing: border-box;
+      padding-top: 55px;
+      margin-right: 40px;
+      transition: all 200ms linear;
+      &:hover{
+        border:1px solid orange;
+      }
+      >p{
+        color: orange;
+        font-size: 35px;
+
+      }
+      >h3{
+        color: white;
+        transition: all 200ms linear;
+        cursor:pointer;
+
+        &:hover{
+          color: orange;
+        }
+      }
+
+    }
+    >div:nth-of-type(5){
+      width:175px;
+      height: 175px;
+      text-align: center;
+      border: 1px solid white;
+      box-sizing: border-box;
+      padding-top: 55px;
+      transition: all 200ms linear;
+      &:hover{
+        border:1px solid orange;
+      }
+      >p{
+        color: orange;
+        font-size: 35px;
+      }
+      >h3{
+        color: white;
+        transition: all 200ms linear;
+        cursor:pointer;
+
+        &:hover{
+          color: orange;
+        }
+      }
+    }
+  }
+}
+@media only screen and (min-width: 760px) and (max-width: 990px){
+  section.menu-3{
+    width: 100%;
+    height:615px;
+    background-color: rgba(0, 0, 0, 0.6);
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: center;
+    >div{
+
+    }
+    >div:nth-of-type(1){
+      width:175px;
+      height: 175px;
+      text-align: center;
+      border: 1px solid white;
+      box-sizing: border-box;
+      padding-top: 55px;
+      margin-right: 40px;
+      transition: all 200ms linear;
+      &:hover{
+        border:1px solid orange;
+      }
+      >p{
+        color: orange;
+        font-size: 35px;
+
+      }
+      >h3{
+        color: white;
+        transition: all 200ms linear;
+        cursor:pointer;
+        &:hover{
+          color: orange;
+        }
+      }
+    }
+    >div:nth-of-type(2){
+      width:175px;
+      height: 175px;
+      text-align: center;
+      border: 1px solid white;
+      box-sizing: border-box;
+      padding-top: 55px;
+      margin-right: 40px;
+      transition: all 200ms linear;
+      &:hover{
+        border:1px solid orange;
+      }
+      >p{
+        color: orange;
+        font-size: 35px;
+
+      }
+      >h3{
+        color: white;
+        transition: all 200ms linear;
+        cursor:pointer;
+
+        &:hover{
+          color: orange;
+        }
+      }
+    }
+    >div:nth-of-type(3){
+      width:175px;
+      height: 175px;
+      text-align: center;
+      border: 1px solid white;
+      box-sizing: border-box;
+      padding-top: 55px;
+      margin-right: 40px;
+      transition: all 200ms linear;
+      &:hover{
+        border:1px solid orange;
+      }
+      >p{
+        color: orange;
+        font-size: 35px;
+
+      }
+      >h3{
+        color: white;
+        transition: all 200ms linear;
+        cursor:pointer;
+
+        &:hover{
+          color: orange;
+        }
+      }
+    }
+    >div:nth-of-type(4){
+      width:175px;
+      height: 175px;
+      text-align: center;
+      border: 1px solid white;
+      box-sizing: border-box;
+      padding-top: 55px;
+      margin-right: 40px;
+      transition: all 200ms linear;
+      &:hover{
+        border:1px solid orange;
+      }
+      >p{
+        color: orange;
+        font-size: 35px;
+
+      }
+      >h3{
+        color: white;
+        transition: all 200ms linear;
+        cursor:pointer;
+
+        &:hover{
+          color: orange;
+        }
+      }
+
+    }
+    >div:nth-of-type(5){
+      width:175px;
+      height: 175px;
+      text-align: center;
+      border: 1px solid white;
+      box-sizing: border-box;
+      padding-top: 55px;
+      transition: all 200ms linear;
+      &:hover{
+        border:1px solid orange;
+      }
+      >p{
+        color: orange;
+        font-size: 35px;
+      }
+      >h3{
+        color: white;
+        transition: all 200ms linear;
+        cursor:pointer;
+
+        &:hover{
+          color: orange;
+        }
+      }
+    }
+  }
+}
+@media only screen and (min-width: 480px) and (max-width: 760px) {
+  section.menu-3{
+    width: 100%;
+    height:615px;
+    background-color: rgba(0, 0, 0, 0.6);
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: center;
+    >div{
+
+    }
+    >div:nth-of-type(1){
+      width:175px;
+      height: 175px;
+      text-align: center;
+      border: 1px solid white;
+      box-sizing: border-box;
+      padding-top: 55px;
+      margin-right: 40px;
+      transition: all 200ms linear;
+      &:hover{
+        border:1px solid orange;
+      }
+      >p{
+        color: orange;
+        font-size: 35px;
+
+      }
+      >h3{
+        color: white;
+        transition: all 200ms linear;
+        cursor:pointer;
+        &:hover{
+          color: orange;
+        }
+      }
+    }
+    >div:nth-of-type(2){
+      width:175px;
+      height: 175px;
+      text-align: center;
+      border: 1px solid white;
+      box-sizing: border-box;
+      padding-top: 55px;
+      margin-right: 40px;
+      transition: all 200ms linear;
+      &:hover{
+        border:1px solid orange;
+      }
+      >p{
+        color: orange;
+        font-size: 35px;
+
+      }
+      >h3{
+        color: white;
+        transition: all 200ms linear;
+        cursor:pointer;
+
+        &:hover{
+          color: orange;
+        }
+      }
+    }
+    >div:nth-of-type(3){
+      width:175px;
+      height: 175px;
+      text-align: center;
+      border: 1px solid white;
+      box-sizing: border-box;
+      padding-top: 55px;
+      margin-right: 40px;
+      transition: all 200ms linear;
+      &:hover{
+        border:1px solid orange;
+      }
+      >p{
+        color: orange;
+        font-size: 35px;
+
+      }
+      >h3{
+        color: white;
+        transition: all 200ms linear;
+        cursor:pointer;
+
+        &:hover{
+          color: orange;
+        }
+      }
+    }
+    >div:nth-of-type(4){
+      width:175px;
+      height: 175px;
+      text-align: center;
+      border: 1px solid white;
+      box-sizing: border-box;
+      padding-top: 55px;
+      margin-right: 40px;
+      transition: all 200ms linear;
+      &:hover{
+        border:1px solid orange;
+      }
+      >p{
+        color: orange;
+        font-size: 35px;
+
+      }
+      >h3{
+        color: white;
+        transition: all 200ms linear;
+        cursor:pointer;
+
+        &:hover{
+          color: orange;
+        }
+      }
+
+    }
+    >div:nth-of-type(5){
+      width:175px;
+      height: 175px;
+      text-align: center;
+      border: 1px solid white;
+      box-sizing: border-box;
+      padding-top: 55px;
+      transition: all 200ms linear;
+      &:hover{
+        border:1px solid orange;
+      }
+      >p{
+        color: orange;
+        font-size: 35px;
+      }
+      >h3{
+        color: white;
+        transition: all 200ms linear;
+        cursor:pointer;
+
+        &:hover{
+          color: orange;
+        }
+      }
+    }
+  }
+}
+@media only screen and (max-width:480px) {
+  section.menu-3{
+    width: 100%;
+    height:775px;
+    background-color: rgba(0, 0, 0, 0.6);
+    display: flex;
+    flex-flow: row wrap;
+    justify-content:center;
+    >div{
+
+    }
+    >div:nth-of-type(1){
+      width:90%;
+      height: 145px;
+      text-align: center;
+      border: 1px solid white;
+      box-sizing: border-box;
+      padding-top: 40px;
+      transition: all 200ms linear;
+      &:hover{
+        border:1px solid orange;
+      }
+      >p{
+        color: orange;
+        font-size: 35px;
+
+      }
+      >h3{
+        color: white;
+        transition: all 200ms linear;
+        cursor:pointer;
+        &:hover{
+          color: orange;
+        }
+      }
+    }
+    >div:nth-of-type(2){
+      width:90%;
+      height: 145px;
+      text-align: center;
+      border: 1px solid white;
+      box-sizing: border-box;
+      padding-top: 40px;
+      transition: all 200ms linear;
+      &:hover{
+        border:1px solid orange;
+      }
+      >p{
+        color: orange;
+        font-size: 35px;
+
+      }
+      >h3{
+        color: white;
+        transition: all 200ms linear;
+        cursor:pointer;
+
+        &:hover{
+          color: orange;
+        }
+      }
+    }
+    >div:nth-of-type(3){
+      width:90%;
+      height: 145px;
+      text-align: center;
+      border: 1px solid white;
+      box-sizing: border-box;
+      padding-top: 40px;
+      transition: all 200ms linear;
+      &:hover{
+        border:1px solid orange;
+      }
+      >p{
+        color: orange;
+        font-size: 35px;
+
+      }
+      >h3{
+        color: white;
+        transition: all 200ms linear;
+        cursor:pointer;
+
+        &:hover{
+          color: orange;
+        }
+      }
+    }
+    >div:nth-of-type(4){
+      width:90%;
+      height: 145px;
+      text-align: center;
+      border: 1px solid white;
+      box-sizing: border-box;
+      padding-top: 40px;
+      transition: all 200ms linear;
+      &:hover{
+        border:1px solid orange;
+      }
+      >p{
+        color: orange;
+        font-size: 35px;
+
+      }
+      >h3{
+        color: white;
+        transition: all 200ms linear;
+        cursor:pointer;
+
+        &:hover{
+          color: orange;
+        }
+      }
+
+    }
+    >div:nth-of-type(5){
+      width:90%;
+      height: 145px;
+      text-align: center;
+      border: 1px solid white;
+      box-sizing: border-box;
+      padding-top: 40px;
+      transition: all 200ms linear;
+      &:hover{
+        border:1px solid orange;
+      }
+      >p{
+        color: orange;
+        font-size: 35px;
+      }
+      >h3{
+        color: white;
+        transition: all 200ms linear;
+        cursor:pointer;
+
+        &:hover{
+          color: orange;
+        }
+      }
+    }
+  }
+}
